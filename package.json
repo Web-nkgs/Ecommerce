@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run start:dev",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && npm run start:dev",
     "build": "npm run build:dev",
     "test": "ng test",
     "lint": "ng lint",
